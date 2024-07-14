@@ -1,0 +1,51 @@
+long stdNIC = Long.parseLong(txtnic.getText()); // Assuming txtnic is your JTextField or similar
+    SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+    String startDateString = dateFormat.format(jDateChooser1.getDate()); // Assuming jDateChooser1 is your date chooser component
+    JOptionPane.showMessageDialog(null,startDateString);
+    
+    // Create SQL queries
+    String sqlCheckParticipation = "SELECT * FROM time WHERE stdNIC = " + stdNIC + " AND stdDate = '" + startDateString + "'";
+    String sqlCheckClassDate = "SELECT * FROM date WHERE classDate = '" + startDateString + "'";
+    
+    // Execute queries
+    boolean participated = false;
+    boolean classScheduled = false;
+    
+    try (Statement stmt = conn.createStatement();
+         ResultSet rs = stmt.executeQuery(sqlCheckParticipation)) {
+        
+        if (rs.next()) {
+            // Student participated on the specified date
+            participated = true;
+            stdpart.setText("Participated");
+            stpaidtime1.setText(rs.getString("stdATime"));
+        }
+    }
+    
+    try (Statement stmt2 = conn.createStatement();
+         ResultSet rs2 = stmt2.executeQuery(sqlCheckClassDate)) {
+        
+        if (rs2.next()) {
+            // Class is scheduled on the specified date
+            classScheduled = true;
+        }
+    }
+    
+    // Determine the status based on query results
+    if (participated) {
+        // Student participated on the specified date
+        // Already set in the first query block
+    } else if (classScheduled) {
+        // Class is scheduled but student did not participate
+        stdpart.setText("No Class");
+        stpaidtime1.setText("No");
+    } else {
+        // No participation and no class scheduled
+        stdpart.setText("Not Participated");
+        stpaidtime1.setText("No");
+    }
+
+        }catch(Exception e){
+            JOptionPane.showMessageDialog(null,"First Enter the NIC or Select the Date");
+        }
+    }  
