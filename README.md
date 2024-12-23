@@ -23,8 +23,35 @@ Features
 
 <h2>This is the Full Demo of the project</h2><br><br>
 
+![Demo](https://github.com/user-attachments/assets/a389f475-4ca8-4b17-aeea-f683899d350d)
 
 
 <br><br>
 <h2>This is the screenshots of the system</h2><br><br>
+
+
+![1](https://github.com/user-attachments/assets/4e672ea3-13df-4d70-90e5-0cb15fec64ec)
+
+![2](https://github.com/user-attachments/assets/745dc713-eb74-4a7b-8c8d-a2318f9d6e07)
+
+![3](https://github.com/user-attachments/assets/df6394f7-8f46-4566-9099-26c9b5eb011a)
+
+![4](https://github.com/user-attachments/assets/0ad50580-ed49-4ddb-99bd-982deb288309)
+
+![5](https://github.com/user-attachments/assets/8146d505-3217-48ed-aa19-796fcb801abd)
+
+![6](https://github.com/user-attachments/assets/d0b03432-ef78-41fe-91da-70ae05c3223a)
+
+![7](https://github.com/user-attachments/assets/5e194da1-2318-4430-9b94-7163b0d36cd9)
+
+
+
+
+
+
+
+
+
+
+
 
