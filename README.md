@@ -5,10 +5,10 @@ This Java desktop application is designed to manage and track student attendance
 
 <h3><u>Technologies Used</u></h3>
 <ul>
-🔹 Java: For building the desktop application.<br>
-🔹 MySQL: For database management.<br>
-🔹 QR Code Generation: For creating unique QR codes for students.<br>
-🔹 Email API: For sending attendance confirmation emails.<br>
+🔹 Java<br>
+🔹 Java Swing<br>
+🔹 MySQL<br>
+🔹 QR Code Generation<br>
 </ul>
 <h3><u>Features</u></h3>
 <ul>
