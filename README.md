@@ -3,27 +3,31 @@
 
 This Java desktop application is designed to manage and track student attendance, payments, and participation details for a tuition class. The system uses a MySQL database for data storage and management.
 
-Technologies Used
+<h3><u>Technologies Used</u></h3>
 <ul>
-<li>Java: For building the desktop application.</li>
-<li>MySQL: For database management.</li>
-<li>QR Code Generation: For creating unique QR codes for students.</li>
-<li>Email API: For sending attendance confirmation emails.</li>
+🔹 Java: For building the desktop application.<br>
+🔹 MySQL: For database management.<br>
+🔹 QR Code Generation: For creating unique QR codes for students.<br>
+🔹 Email API: For sending attendance confirmation emails.<br>
 </ul>
-Features
+<h3><u>Features</u></h3>
 <ul>
-<li>Admin Login: Secure login for administrators to access and manage the system.</li>
-<li>Student Registration: Admins can add new students with complete details. Upon registration, each student receives a unique QR code.</li>
-<li>Attendance Tracking: Students mark their attendance by scanning their QR code upon arrival. The system records the arrival time and checks the payment status.</li>
-<li>Payment Verification: The system verifies if the student has paid the class fees and displays the payment status during QR code scanning.</li>
-<li>Email Notifications: After a student's QR code is scanned, an email confirmation is sent to both the student and their parent.</li>
-<li>Detailed Reports: Admins can view comprehensive details for each student, including attendance records with arrival times and payment history with dates and times.</li>
+✅ Admin Login: Secure login for administrators to access and manage the system.<br>
+✅ Student Registration: Admins can add new students with complete details. Upon registration, each student receives a unique QR code.<br>
+✅ Attendance Tracking: Students mark their attendance by scanning their QR code upon arrival. The system records the arrival time and checks the payment status.<br>
+✅ Payment Verification: The system verifies if the student has paid the class fees and displays the payment status during QR code scanning.<br>
+✅ Email Notifications: After a student's QR code is scanned, an email confirmation is sent to both the student and their parent.<br>
+✅ Detailed Reports: Admins can view comprehensive details for each student, including attendance records with arrival times and payment history with dates and times.<br>
 </ul>
 
 
 <h2>This is the Full Demo of the project</h2><br><br>
 
-![Demo](https://github.com/user-attachments/assets/a389f475-4ca8-4b17-aeea-f683899d350d)
+
+
+
+https://github.com/user-attachments/assets/df470362-2326-4a6a-89ac-eba26cea10ec
+
 
 
 <br><br>
